@@ -1,0 +1,147 @@
+body {
+  background: lighten(#eaeaea, 4%);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: $sidebar;
+  overflow: hidden;
+
+  &.has-navbar-fixed-top {
+    padding-top: 4.6rem;
+  }
+
+  > #__nuxt {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+
+    #__layout {
+      height: 100%;
+
+      #app {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.body-color {
+  color: #8e9baf !important
+}
+
+.color-primary {
+  color: $primary !important
+}
+
+.color-secondary {
+  color: $secondary !important
+}
+
+.color-accent {
+  color: $accent !important
+}
+
+.color-red {
+  color: $red !important
+}
+
+.dark-text {
+  color: $blue-grey !important
+}
+
+.white-text {
+  color: $white !important
+}
+
+.light-text {
+  color: $grey-white !important
+}
+
+.muted-text {
+  color: $muted-grey !important
+}
+
+.primary-text {
+  color: $primary !important
+}
+
+.secondary-text {
+  color: $secondary !important
+}
+
+.accent-text {
+  color: $accent !important
+}
+
+.info-text {
+  color: $info !important
+}
+
+.success-text {
+  color: $success !important
+}
+
+.warning-text {
+  color: $warning !important
+}
+
+.danger-text {
+  color: $danger !important
+}
+
+.dark-bg {
+  background: $coal !important
+}
+
+.light-bg {
+  background: $white !important
+}
+
+.has-light-shadow {
+  -webkit-box-shadow: -1px 3px 15px 0 rgba(0,0,0,.06);
+  box-shadow: -1px 3px 15px 0 rgba(0,0,0,.06)
+}
+
+.title.is-styled {
+  font-family: "Nexa Bold",sans-serif;
+  color: #444f60
+}
+
+.text-bold {
+  font-weight: 600 !important
+}
+
+.text-bolder {
+  font-weight: 700 !important
+}
+
+.is-size-1 {
+  font-size: 3rem
+}
+
+.is-size-2 {
+  font-size: 2.5rem
+}
+
+.is-size-3 {
+  font-size: 2rem
+}
+
+.is-size-4 {
+  font-size: 1.5rem
+}
+
+.is-size-5 {
+  font-size: 1.25rem
+}
+
+.is-size-6 {
+  font-size: 1rem
+}
+
+.is-size-7 {
+  font-size: .75rem
+}

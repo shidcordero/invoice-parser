@@ -1,0 +1,14 @@
+//1. Bulkit main variables
+@import "abstracts/variables";
+@import "abstracts/theme";
+@import "abstracts/shadows";
+
+//2. Bulma source sass
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+@import "layout/layout";
+
+@import 'fonts/all';
+
+@import 'custom/hr';

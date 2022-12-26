@@ -1,0 +1,16 @@
+hr, hr.vertically {
+  color: $primary;
+  background-color: $primary;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+
+  &.vertically {
+    width: 1px;
+    margin-top: 0.25rem;
+    height: calc(100% - 0.5rem);
+  }
+}

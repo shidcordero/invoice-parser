@@ -1,0 +1,22 @@
+/* ==========================================================================
+0. Theme color variables
+========================================================================== */
+$primary: #039BE5;
+$secondary: #0084c4;
+$accent: #00D1B2;
+
+/* ==========================================================================
+1. Theme gradient
+========================================================================== */
+$webkit-hero-prime-gradient: linear-gradient(to right, $primary, darken($primary, 12%));
+$hero-prime-gradient: linear-gradient(to top, $primary, darken($primary, 12%));
+
+$webkit-hero-gradient: linear-gradient(to right, $secondary, $accent);
+$hero-gradient: linear-gradient(to top, $secondary, $accent);
+
+/* ==========================================================================
+2. Pageloader
+========================================================================== */
+.pageloader {
+    background-color: $primary !important;
+}

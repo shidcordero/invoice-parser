@@ -1,0 +1,26 @@
+{
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "@nuxtjs",
+    "plugin:nuxt/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "vue/component-name-in-template-casing": "error",
+    "vue/no-mutating-props": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-case-declarations": "off"
+  }
+}
