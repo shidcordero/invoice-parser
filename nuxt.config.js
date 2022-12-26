@@ -120,9 +120,7 @@ export default {
       },
       storage: true,
       functions: {
-        location: 'us-central1',
-        emulatorPort: 9000,
-        emulatorHost: 'http://localhost'
+        location: 'us-central1'
       }
     }
   },
